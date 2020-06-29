@@ -1,0 +1,21 @@
+@import '../stylesScss/Variables.scss';
+
+.button {
+    padding: 10px 20px;
+    background-color: lighten($main-color, 20);
+    border-radius: 10px;
+    border-bottom: 3px solid $gray;
+    border-right: 3px solid $gray;
+    font-family: $font-family;
+    font-size: 18px;
+    color: $dark-color;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    margin: 5px;
+
+    &:active {
+        border: none;
+        margin-top: 8px;
+    }
+}

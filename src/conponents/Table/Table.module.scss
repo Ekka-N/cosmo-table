@@ -1,0 +1,83 @@
+@import '../stylesScss/Variables.scss';
+
+.bold{
+    font-weight: 800;
+} 
+
+.table {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 25px 0;
+    box-shadow: $shadow;
+    border-radius: 20px;
+    border: 4px solid $main-color;
+    font-size: 18px;
+    @media (max-width: 900px) {
+        font-size: 12px;
+    }
+
+    .titles {
+        font-size: 20px;
+        border-bottom: 4px solid $main-color;
+        font-weight: 600;
+        @media (max-width: 900px) {
+            font-size: 14px;
+        }
+        @media (max-width: 500px) {
+            font-size: 10px;
+            * {
+                max-width: 60px;
+            }
+        }
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: 3fr 2fr 2fr 3fr 1fr;
+        align-items: center;
+        color: $dark-color;
+        letter-spacing: .1em;
+        position: relative;
+
+        &:not(:first-child):not(:last-child){
+            border-bottom: 2px solid $gray;
+        }
+
+        .table__item {
+            padding: 20px;
+            @media (max-width: 768px) {
+                padding: 10px;
+            }
+            @media (max-width: 400px) {
+                padding: 5px;
+            }
+
+            .sort {
+                display: inline-block;
+                background-color: $light-gray;
+                border-radius: 5px;
+                font-size: .6em;
+                padding: 5px;
+                width: 50%;
+                text-align: center;
+                cursor: pointer;
+            }
+            .sortActive {
+                background-color: lighten($main-color, 15);
+            }
+        } 
+        .delete {
+            position: absolute;
+            top: 0;
+            right: 0;
+            cursor: pointer;
+            opacity: .2;
+            transition: opacity .5s;
+
+            &:hover {
+                opacity: .8;
+            }
+        }
+    }
+    
+}

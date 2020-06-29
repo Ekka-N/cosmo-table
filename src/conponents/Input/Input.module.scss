@@ -1,0 +1,28 @@
+@import '../stylesScss/Variables.scss';
+
+.text {
+    background-color: $light-gray;
+    border: 3px solid $dark-color;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    margin: 5px;
+}
+.search {
+    width: 100%;
+    padding: 15px;
+    background: url(./images/search.svg) no-repeat 98% 50%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 3px solid $dark-color;
+    font-size: 18px;
+    outline: none;
+}
+.small {
+    max-width: 50px;
+}
+.error {
+    border: 3px solid;
+    color: $error-color;
+}
