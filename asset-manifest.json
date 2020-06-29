@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cosmo-table/static/css/main.a4ed094c.chunk.css",
+    "main.js": "/cosmo-table/static/js/main.55ac50e2.chunk.js",
+    "main.js.map": "/cosmo-table/static/js/main.55ac50e2.chunk.js.map",
+    "runtime-main.js": "/cosmo-table/static/js/runtime-main.63ff3d3f.js",
+    "runtime-main.js.map": "/cosmo-table/static/js/runtime-main.63ff3d3f.js.map",
+    "static/js/2.d83173e0.chunk.js": "/cosmo-table/static/js/2.d83173e0.chunk.js",
+    "static/js/2.d83173e0.chunk.js.map": "/cosmo-table/static/js/2.d83173e0.chunk.js.map",
+    "index.html": "/cosmo-table/index.html",
+    "precache-manifest.801e4f7a3186b0907ae09506329aca85.js": "/cosmo-table/precache-manifest.801e4f7a3186b0907ae09506329aca85.js",
+    "service-worker.js": "/cosmo-table/service-worker.js",
+    "static/css/main.a4ed094c.chunk.css.map": "/cosmo-table/static/css/main.a4ed094c.chunk.css.map",
+    "static/js/2.d83173e0.chunk.js.LICENSE.txt": "/cosmo-table/static/js/2.d83173e0.chunk.js.LICENSE.txt",
+    "static/media/CheckBox.module.scss": "/cosmo-table/static/media/OK.79338bc3.svg",
+    "static/media/OK.svg": "/cosmo-table/static/media/OK.9f797f67.svg",
+    "static/media/bin.svg": "/cosmo-table/static/media/bin.50b1c575.svg",
+    "static/media/Input.module.scss": "/cosmo-table/static/media/search.345bcc2e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63ff3d3f.js",
+    "static/js/2.d83173e0.chunk.js",
+    "static/css/main.a4ed094c.chunk.css",
+    "static/js/main.55ac50e2.chunk.js"
+  ]
+}
